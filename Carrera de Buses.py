@@ -16,7 +16,7 @@ def buses(n1, n2):
     print(115 * "-")
 
 def clear_screen():
-    # Comando para limpiar la pantalla en Windows y Unix-based OS
+    # Comando para limpiar la pantalla en Windows 
     os.system('cls' if os.name == 'nt' else 'clear')
 
 a = 0
