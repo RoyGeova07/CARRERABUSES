@@ -6,23 +6,23 @@ def buses(n1, n2):
     print(115 * "-")
     print((n1 * " ") + "________________" + ((100 - n1) * " ") + "|")
     print((n1 * " ") + "|__|__|__|__|__|__" + ((97 - n1) * " ") + "|")
-    print((n1 * " ") + "|     COTUC       |" + ((96 - n1) * " ") + "|")
+    print((n1 * " ") + "|     Andru       |" + ((96 - n1) * " ") + "|")
     print((n1 * " ") + "|----@--------@---|" + ((96 - n1) * " ") + "|")
     print(115 * "-")
     print((n2 * " ") + "________________" + ((100 - n2) * " ") + "|")
     print((n2 * " ") + "|__|__|__|__|__|__" + ((97 - n2) * " ") + "|")
-    print((n2 * " ") + "|    CONTRAIBAL   |" + ((96 - n2) * " ") + "|")
+    print((n2 * " ") + "|    OMARRRRRR    |" + ((96 - n2) * " ") + "|")
     print((n2 * " ") + "|----@--------@---|" + ((96 - n2) * " ") + "|")
     print(115 * "-")
 
 def clear_screen():
-    # Comando para limpiar la pantalla en Windows y Unix-based OS
+    # Comando para limpiar la pantalla en Windows 
     os.system('cls' if os.name == 'nt' else 'clear')
 
 a = 0
 b = 0
 print("CARRERA DE BUSES!!!!!")
-print("COTUC VS CONTRAIBAL")
+print("Andru VS Omar")
 time.sleep(3)
 clear_screen()
 
@@ -38,8 +38,8 @@ while a < 97 and b < 97:
     time.sleep(0.05)
 
 if a == 97:
-    gano = "COTUC"
+    gano = "ANDRU"
 elif b == 97:
-    gano = "CONTRAIBAL"
+    gano = "OMAR"
 
 print(f"¡GANO {gano}!")
